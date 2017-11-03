@@ -5,7 +5,7 @@ Replace default white colored LED tape to Wio-Node(ESP8266 based) controled WS28
 You can control color via web broser through MilkCocoa(MQTT broker).
 
 cf.
-your browser(MQTT Publish) -> MilkCocoa(MQTT Broker) -> Wio-Node(MQTT Subscribe) in Big Face Box
+your browser(MQTT Publisher) -> MilkCocoa(MQTT Broker) -> Wio-Node(MQTT Subscriber) in Big Face Box
 
 Installation
 1. write wionode.ino to Wio-Node device as Arduino compatibie.
