@@ -9,8 +9,8 @@
 #define MILKCOCOA_DATASTORE   ""  // MilkCocoa Datastore Name
 #define MILKCOCOA_SERVERPORT  1883
 
-#define PIN 4   // Grove Port 1 IO4 or IO5
-#define NUMPIXELS 12   // Number of LEDs
+#define PIN 5   // Grove Port 1 IO4 or IO5
+#define NUMPIXELS 40   // Number of LEDs
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 WiFiClient client;
